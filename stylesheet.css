@@ -1,0 +1,162 @@
+.container {
+    max-width: 1600px;
+    /*font-family: 'Crimson Text', serif;*/
+}
+
+header {
+    height: 240px;
+    /*overflow: hidden;*/
+}
+
+header img {
+    height: 185px;
+    width: 185px;
+    margin: 0 auto;
+    display: block;
+}
+header .searchbar {
+    float: right;
+    z-index: 2;
+    position: absolute;
+}
+
+a .cart {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: rgb(229,218,206);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    caret-color: black;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: black;
+    color: rgb(229,218,206);
+}
+
+.search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    text-decoration:none;
+}
+
+a .logout .dropdown-item{
+    background-color: red;
+}
+
+
+.homePlan, .homeWhyBuy, .homeProducts, .homeSocial, .homeBrand, .productsH1 {
+    text-align: center;
+    color: rgb(87,106,124);
+}
+
+.homePlan .btn, .homeProducts .btn, form .btn {
+    background-color: rgb(87,106,124);
+}
+
+.homeWhyBuy {
+    background-color: rgb(229,218,206);
+    color: rgb(87,106,124);
+}
+
+.homeBrand {
+    color: rgb(87,106,124)
+}
+
+.socialMediaSquare{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+    object-fit: cover;
+
+}
+.socialMediaSquare img{
+    position: absolute;
+    object-fit: cover;
+}
+
+
+/*Products Page*/
+.products {
+    overflow: hidden;
+}
+.products a:hover {
+    text-decoration: none;
+}
+
+.productItem {
+    max-width: 33%;
+}
+
+.productItem .card .card-img {
+    height: 488px;
+}
+.productItem .card {
+    height: 850px;
+    /*overflow: scroll;*/
+}
+.productItem .card .card-header {
+    /*background-color: rgb(87,106,124);*/
+}
+/*.productItem .card .card-header {*/
+/*    height: 150px;*/
+/*}*/
+/*.productItem .card .card-body {*/
+/*    height: 250px;*/
+/*}*/
+
+/*Sign IN page*/
+.nav .nav-item .nav-link.active{
+    background-color: rgb(234,230,217);
+}
+
+.signIn {
+    text-align: center;
+}
+/*.signIn input {*/
+/*    width: 100%;*/
+/*}*/
+
+.customer input {
+    background-color: rgba(229,218,206,0.7);
+}
+
+.print {
+    background-color: rgb(87,106,124);
+    margin: auto;
+}
+
+
+.footer {
+    background-color: rgb(229,218,206);
+}
